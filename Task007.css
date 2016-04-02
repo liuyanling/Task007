@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    border: 1px solid blue;
+    width: 1300px;
+}
+header{
+    height: 80px;
+    overflow: hidden;
+    /*border: 1px solid green;*/
+}
+.left_bar{
+    float: left;
+    list-style: none;
+    /*border: 1px solid red;*/
+    margin-left: 70px;
+}
+.left_bar i{
+     background: url("images/books.png") ;
+     height:45px;
+     width: 55px;
+     float:left;
+     margin-top: -10px;
+}
+.left_bar li{
+    padding-top:15px;
+}
+.left_bar a{
+    color: black;
+    font: 25px "Î¢ÈíÑÅºÚ",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+
+}
+.right_bar{
+     width: 600px;
+     float: right;
+     margin-top:20px;
+ }
+a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    /*display: block;*/
+}
+.right_bar li{
+    list-style: none;
+    display:inline;
+
+}
+.right_bar i{
+    background: url("images/signin1.png") right ;
+    height:23px;
+    width: 23px;
+    float:left;
+    margin: -20px 0px 0px 450px;
+}
+.right_bar a:link,.right_bar a:visited{
+     padding: 0px 10px 35px 10px;
+     font: 17px "Î¢ÈíÑÅºÚ",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+     color: lightslategrey;
+     text-align: center;
+    transition: all 0.3s;
+}
+.right_bar a:hover,.right_bar a:active{
+    color: red;
+    border-bottom:5px solid red;
+}
+.icon2{
+    color: red !important;
+    margin-left: 20px;
+    border-bottom:5px solid white !important;
+}
+.image1{
+    position: relative;
+}
+.image1 img{
+    width: 100%;
+    height: 600px;
+}
+.title{
+    float: left;
+    position: absolute;
+    top:20%;
+    right: 70%;
+    text-align: center;
+    color: white;
+}
+.title_1{
+    font: 130px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+}
+.title_2{
+    font: 40px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    margin-bottom: 50px;
+}
+.title a:hover{
+    background-color: #de5f5f;
+}
+form a:hover{
+    background-color: #de5f5f;
+}
+.pailie3 a:hover{
+    border-color: red;
+}
+.pailie4 a:hover{
+    border-color: white;
+}
+.title a,form a,.pailie2_son a,.pailie3 a,.pailie4 a{
+    background-color: indianred;
+    color: white;
+    font: 27px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    padding: 8px 60px;
+}
+.logos img{
+    float: left;
+    margin: 40px 138px;
+}
+
+.introduce{
+    margin-top: -20px;
+    float: right;
+    column-count: 4;
+    column-gap: 40px;
+    column-rule:2px solid lightslategrey;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 40px;
+    -webkit-column-rule:2px solid lightslategrey;
+    -moz-column-count: 4;
+    -moz-column-gap: 40px;
+    -moz-column-rule:2px solid lightslategrey;
+}
+.introduce p,option,.conternt_1_middle p{
+    padding: 20px 20px;
+    text-align: center;
+    color: gray;
+    font-weight: 900;
+}
+label {
+     color: brown;
+     font-size: 25px;
+ }
+.image2{
+    overflow: hidden;
+    margin-bottom: 50px;
+    /*border: 1px solid hotpink;*/
+}
+.conternt_1_top{
+    background-color: #E7E7E7;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getmiddle{
+    text-align: center;
+    /*border: 1px solid hotpink;*/
+}
+.getmiddle p{
+    font: 40px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: darkgrey;
+}
+.conternt_1_middle{
+    background-image: url("images/imgs7.jpg");
+    height: 400px;
+    background-size: cover;
+}
+.conternt_1_bottom{
+    height: 500px;
+}
+.title_3{
+    font: 40px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: brown !important;
+    padding:80px 0 0 0 !important;
+}
+.title_4{
+    color: firebrick !important;
+    font-size: 25px !important;
+}
+form{
+   /*border: 1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 100px;
+}
+form a{
+    padding: 0px 110px !important;
+}
+select{
+    height: 40px;
+    width: 235px;
+    background: white;
+
+}
+form a{
+    height:40px !important;
+}
+.conternt_1_bottom{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 50px;
+     background-color: #cccccc;
+ }
+.bottom{
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+.bottom_1{
+    border: 1px solid  gray;
+    padding:10px;
+    background-color: white;
+
+}
+.conternt_1_bottom img{
+    width: 240px;
+    height: 350px;
+}
+.conternt_1_bottom p{
+    font: 17px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+}
+.chunji{
+    font-size: 22px !important;
+}
+.meide{
+    font: 17px "Î¢ÈíÑÅºÚ",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: lightslategrey;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+.shift{
+   float: left;
+}
+.content_2{
+    overflow: hidden;
+}
+   /*/!*position: relative;*!/*/
+    /*float: left;*/
+/*}*/
+.pailie1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background:url("images/imgs7.jpg");
+    background-size: cover;
+    width: 800px;
+    height: 460px;
+    text-align: center;
+}
+.title_5{
+    font: 70px "¿¬Ìå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: crimson;
+}
+.title_6{
+    font: 47px "Î¢ÈíÑÅºÚ",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+    color: orangered;
+}
+.title_6after{
+    position: relative;
+}
+.title_6after:after{
+    content:"";
+    width: 80px;
+    transition: all ease 0.5s;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: -15px;
+    border-bottom: 2px solid red;
+}
+.pailie2{
+    height: 460px;
+    width: 500px;
+    text-align: center;
+    /*position: absolute;*/
+    /*top:50%;*/
+    /*right: 0px;*/
+    float: right;
+}
+.pailie2_son{
+    margin: 100px ;
+}
+.clear_float{
+    clear:right;
+}
+.margin_a{
+    margin-top: 30px;
+}
+.margin_a :hover{
+    background: red;
+}
+.content_3{
+     display: flex;
+    position: relative;
+ }
+.pailie3,.pailie4,.pailie5,.content_4,.content_5{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+}
+.content_4{
+    height: 300px;
+}
+.pailie3,.pailie4,.pailie5{
+    width: 445px;
+    font: 27px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+}
+.pailie3{
+    background:url("images/imgs7.jpg");
+}
+.pailie4{
+    background:url("images/imgs6.jpg");
+}
+.pailie5{
+    background:url("images/imgs9.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.pailie5:after{
+    position: absolute;top: 50%;
+    z-index: 3;
+    left: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 0 20px 20px ;
+    border-color:transparent transparent transparent white;
+}
+.content4_son,.pailie3_1,.pailie4_1,.conternt4_son1,.conternt4_son2,.alignself{
+    align-self: center;
+}
+.pailie3_1{
+    color: white;
+}
+.pailie3_1 a{
+    border: 3px solid white;
+    transition: all 0.3s;
+}
+.pailie4_1{
+    color: black;
+}
+.pailie4 a{
+     background-color: white;
+     color: red;
+     border:3px solid red;
+     transition: all 0.3s;
+ }
+.content4_son{
+    width: 400px;
+}
+.meide h3{
+    color: black;
+    margin-top: 30px;
+}
+.content5_son1{
+    padding: 0px 50px;
+    width: 400px;}
+.readmore{
+    display: flex;
+    justify-content: flex-end;
+}
+.content5_son2 [type="text"]{
+    height: 38px;
+    width: 320px;
+    background-color: lightgrey;
+    margin: 10px 10px;
+}
+textarea {
+    background-color: lightgrey;
+    width: 97%;
+    margin: 8px 0px;
+}
+.content5_son2{
+   width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    width: 97%;
+    height: 38px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+.content6_son{
+    background-color:#202022;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+}
+.end{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content6_son1 .submit_email{
+    font: 27px "ËÎÌå",Verdana,SimHei,"Microsoft JhengHei",Tahoma;
+}
+.text_end{
+    width: 320px;
+    height: 35px;
+}
+.submit_email{
+    width: 75px;
+    height: 35px;
+    background-color: gray;
+    border: 0px;
+}
+.logos_1 img{
+    margin: 50px 30px 0 30px;
+}
+ .alignself{
+    line-height: 30px;
+}
+.end p,.end a{
+padding: 0px 60px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
